@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+.header{
+  margin-top:10px;
+  height:50px;
+ }
+  .header_logo{
+  position:relative;
+  top:-5px;
+  }
+  .search_engine{}
+  .search_engine input[type=text]{
+  padding:4px;
+  }
+  .search_engine input[type=submit]{
+  padding:4px;
+  }
+  .navigation_bar{
+  margin-bottom:15px;
+  }
+  .navigation_bar{ /*them cai nay*/
+	  font-size:23px;
+  }
+  .navigation_bar ul ul, .navigation_bar ul ul ul{/*them*/
+	  white-space: nowrap;/*dung de cho chu khoi xuong dong*/
+	  font-size:18px;
+z-index:9999;
+  }
+ .three_line_button img{
+   height:35px;
+   width:35px;
+   line-height:50px;
+   margin:5px 5px 5px 10px;
+   padding:1px;
+ }
+ .three_line_button img:hover{
+   border:1px solid #CCC2C2;
+   border-radius:2px;
+   background:rgba(217,215,215,0.2);
+ }
+ .content #content_box{ /* giai thich #content_box inside .content*/
+	 border-top:1px solid rgba(231,231,231,0.7);
+	 height:auto;
+	 float:left;
+ }
+
+ .content #content_box img{
+	 float:left;
+	 margin:7px 10px 10px 0;
+ }
+ .content #content_box a{
+	 text-decoration:none;
+	 color:black;
+ }
+ .content #content_box a:hover{color:orange;}
+ .content #content_box a#read_more{
+	 float:right;
+	 margin-right:15px;
+	 background:red;
+	 padding:5px;
+	 color:white;
+ }
+ .content #content_box a#read_more:hover{
+	 background:grey;
+ }
+ .footer{
+   width:100%;
+   border-top:1px solid rgba(172,172,172,0.4);
+   margin-top:25px;
+   height:500px;
+ }
+ #footer_logo{
+   margin:15px 0 15px 0;
+   width:100%;
+ }
+ .bottom_bar{
+   float:left;
+   width:50%;
+ }
+ .bottom_bar li{
+   float:left;
+   list-style:none;
+ }
+ .bottom_bar li a{
+   text-decoration:none;
+   color:#000000;
+ }
+ .bottom_bar li a:hover{
+   text-decoration:underline;
+ }
+ #recent_comment{
+   float:left;
+   width:50%;
+ }
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
